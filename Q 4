@@ -1,0 +1,15 @@
+#stsrt
+count=0
+highest_rating=0
+lowest_rating=6
+while count<10:
+    count=count+1
+    score=int(input("(1 to 5)enter a movie rating"))
+    if 1<=score<=5:
+       if highest_rating<score:
+        highest_rating=score
+    if score>lowest_rating:
+        lowest_rating=score
+    else:
+      print("rating invalid.enter rating between1-5")
+#stop
