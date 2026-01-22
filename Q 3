@@ -1,0 +1,12 @@
+#start
+count=0
+total_of_numbers=0
+while True:
+    number = int(input("enter a number(-999 to stop):"))
+    if number==-999:
+        break
+    count+=1
+    total_of_numbers+=number
+    print("Numbers entered:",count)
+    print("sum of numbers:",total_of_numbers)
+#stop
