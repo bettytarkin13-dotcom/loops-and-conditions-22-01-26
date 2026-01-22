@@ -1,0 +1,14 @@
+#start
+number_of_students=int(input("number of students in clas"))
+count=0
+total=0
+while count<number_of_students:
+    score=int(input("enter grade between 0 to 100"))
+    if 0<=score<=100:
+        total+=score
+        count+=1
+    else:
+        print("invalid score.enter score between 0 to 100")
+    average=total/number_of_students
+    print("average score is:",average)
+#stop
