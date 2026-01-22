@@ -1,0 +1,15 @@
+#start
+number=int(input("enter a number:"))
+if number%2==0:
+    print("two")
+else:
+    #no
+    if number%3==0:
+        print("three")
+    else:
+     if number%5==0:
+         print("five")
+     else:
+         print("no small dividers")
+
+#stop
